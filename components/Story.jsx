@@ -68,7 +68,7 @@ export default function Story() {
           >
             <motion.div variants={itemVariants} className="p-6 rounded-3xl bg-white/5 backdrop-blur-xl border border-white/10 hover:border-[#00f2fe]/50 transition-colors duration-500">
               <Droplets className="w-8 h-8 text-[#00f2fe] mb-4" />
-              <h4 className="text-3xl font-display font-bold text-white mb-2">50k<span className="text-sm text-[#00f2fe] ml-1">MT</span></h4>
+              <h4 className="text-3xl font-display font-bold text-white mb-2">300k<span className="text-sm text-[#00f2fe] ml-1">MT</span></h4>
               <p className="text-sm text-gray-400">Current annual fish supply deficit in Kenya.</p>
             </motion.div>
 
