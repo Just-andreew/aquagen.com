@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+@theme {
+  /* Cinematic Color Palette */
+  --color-ocean-surface: #020c1b;
+  --color-ocean-deep: #0a192f;
+  --color-bioluminescent: #00f2fe;
+
+  /* Typography */
+  --font-sans: var(--font-inter), sans-serif;
+  --font-display: var(--font-space-grotesk), sans-serif;
+
+  /* Bioluminescent Pulse Animation */
+  --animate-glow-pulse: glow 3s ease-in-out infinite alternate;
+
+  @keyframes glow {
+    0%, 100% { box-shadow: 0 0 10px rgba(0, 242, 254, 0.2); }
+    50% { box-shadow: 0 0 30px rgba(0, 242, 254, 0.6); }
+  }
+}
+
+/* Custom Background Utilities */
+@utility bg-noise {
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 250 250' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.75' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+  background-repeat: repeat;
+  opacity: 0.04;
+  pointer-events: none;
+}
+
+@utility bg-glass-gradient {
+  background-image: linear-gradient(135deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.01) 100%);
+}
+
+/* Base Body Styles */
+body {
+  background-color: var(--color-ocean-surface);
+  color: #ffffff;
+  overflow-x: hidden;
+  overscroll-behavior: none;
+}
+
+/* Custom Cinematic Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-ocean-surface);
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 242, 254, 0.3);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 242, 254, 0.6);
+}
