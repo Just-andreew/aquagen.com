@@ -32,14 +32,14 @@ export default function Story() {
           <div>
             <h2 className="font-display text-4xl md:text-5xl font-bold text-white mb-6 leading-tight">
               The Global Deficit & <br />
-              <span className="text-[#00f2fe]">The AquaGen Thesis</span>
+              <span className="text-[#00f2fe]">The Aquagen Thesis</span>
             </h2>
             <div className="space-y-6 text-gray-400 text-lg leading-relaxed font-light">
               <p>
                 Natural reserves are collapsing. Globally, sustainable fishery stocks have plummeted, and in Kenya alone, we face an annual supply deficit of 300,000 metric tons. The traditional methods of extraction and simple earth ponds can no longer sustain the population.
               </p>
               <p>
-                We founded AquaGen to patch that gap.Based off of the Recirculating Aquaculture System (RAS) we use, we are engineering a miniature, highly scalable version that will place commercial-grade technology into the hands of local farmers. 
+                We founded Aquagen to patch that gap.Based off of the Recirculating Aquaculture System (RAS) we use, we are engineering a miniature, highly scalable version that will place commercial-grade technology into the hands of local farmers. 
               </p>
               <p>
                 But technology isn't enough. Farmers needed capital. By integrating IoT sensors into every unit, we generate real-time, verifiable production data. We use this telemetry to bypass traditional collateral requirements, by offering a offering a means for alternative financing, allowing financial institutions to confidently issue credit and mobile financing to the agriculture sector based on actual yield potential.
@@ -53,7 +53,7 @@ export default function Story() {
               whileTap={{ scale: 0.95 }}
               className="group relative inline-flex items-center gap-3 mt-10 px-8 py-4 bg-[#00f2fe]/10 text-[#00f2fe] font-medium rounded-full overflow-hidden border border-[#00f2fe]/30 transition-all duration-300 hover:bg-[#00f2fe]/20 hover:shadow-[0_0_30px_rgba(0,242,254,0.4)]"
             >
-              Explore A-RAS Packages
+              Explore RAS Packages
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
             </motion.a>
           </div>

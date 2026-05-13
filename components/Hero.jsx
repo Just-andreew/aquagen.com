@@ -45,7 +45,7 @@ export default function Hero() {
           transition={{ duration: 1.5, ease: [0.16, 1, 0.3, 1] }}
         >
           <h1 className="font-display font-bold text-7xl md:text-9xl tracking-tighter text-white drop-shadow-2xl">
-            AquaGen
+            Aquagen
           </h1>
           <p className="mt-6 text-xl md:text-3xl text-gray-200 font-light max-w-2xl text-center drop-shadow-md">
             Engineering Climate-Resilient <br className="hidden md:block" />

@@ -4,11 +4,11 @@ import { motion } from 'framer-motion';
 
 export default function Facility() {
   return (
-    <section className="relative z-30 w-full py-32 px-6 bg-[#0a192f]">
+    <section className="relative z-30 w-full py-32 px-6 bg-[#ffffff]">
       <div className="max-w-7xl mx-auto">
         <div className="mb-16">
-          <h2 className="font-display text-4xl font-bold text-white mb-4">The Machakos Facility</h2>
-          <p className="text-gray-400 max-w-xl text-lg">
+          <h2 className="font-display text-4xl font-bold text-[#0a192f] mb-4">The Machakos Facility</h2>
+          <p className="text-gray-800 max-w-xl text-lg">
             A physical manifestation of our technological thesis. Scalable, modular, and deeply integrated with our IoT backbone and water recycling units.
           </p>
         </div>
@@ -51,19 +51,19 @@ export default function Facility() {
           </div>
 
           {/* Item 3: Info/Text Card */}
-          <div className="relative md:col-span-1 md:row-span-1 rounded-3xl overflow-hidden group bg-[#020c1b]/50 border border-white/10 flex flex-col justify-center p-6 backdrop-blur-xl hover:border-[#00f2fe]/50 transition-colors duration-500">
-             <h3 className="font-display text-xl font-bold text-white mb-2">Our System</h3>
-             <p className="text-sm text-gray-400 leading-relaxed">
-               High-efficiency water management using gravity-fed bio-filtration and durable local materials.
-             </p>
+          <div className="relative md:col-span-1 md:row-span-1 rounded-3xl overflow-hidden group bg-[#020c1b]/80 backdrop-blur-xl shadow-2xl flex flex-col justify-center p-6 border border-white/10 hover:border-[#00f2fe]/60 transition-colors duration-500">
+            <h3 className="font-display text-2xl font-bold text-white mb-3 group-hover:text-[#00f2fe] transition-colors">Our System</h3>
+            <p className="text-sm text-gray-300 font-light leading-relaxed">
+              High-efficiency water management using gravity-fed bio-filtration and durable local materials.
+            </p>
           </div>
 
           {/* Item 4: Data Callout Card */}
-          <div className="relative md:col-span-1 md:row-span-1 rounded-3xl overflow-hidden group bg-glass-gradient border border-white/10 flex flex-col justify-center items-center p-6 text-center backdrop-blur-xl hover:border-[#00f2fe]/50 transition-colors duration-500">
-             <h3 className="font-display text-5xl font-bold text-[#00f2fe] mb-2 drop-shadow-[0_0_15px_rgba(0,242,254,0.4)]">10x</h3>
-             <p className="text-sm text-gray-300 font-medium leading-relaxed">
-               Verified capacity increase over traditional earthen ponds.
-             </p>
+          <div className="relative md:col-span-1 md:row-span-1 rounded-3xl overflow-hidden group bg-[#020c1b]/80 backdrop-blur-xl border border-white/10 flex flex-col justify-center items-center p-6 text-center shadow-xl hover:shadow-2xl transition-all duration-500 hover:border-[#00f2fe]/60">
+            <h3 className="font-display text-6xl font-bold text-[#00f2fe] mb-3 group-hover:scale-110 transition-transform duration-500">10x</h3>
+            <p className="text-sm text-gray-300 font-medium leading-relaxed px-2">
+              Verified capacity increase over traditional earthen ponds.
+            </p>
           </div>
         </motion.div>
       </div>

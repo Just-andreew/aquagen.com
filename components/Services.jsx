@@ -23,7 +23,24 @@ const cardVariants = {
   },
 };
 
-const servicesData = [];
+const servicesData = [
+{
+  title: 'Smart Water Systems',
+  description: 'AI-powered monitoring and optimization for real-time water quality analysis and automated management.',
+  Icon: Droplets,
+  },
+  {
+  title: 'Intelligent Processing',
+  description: 'Advanced computational solutions for data analysis, predictive modeling, and system optimization.',
+  Icon: Cpu,
+  },
+  {
+  title: 'Cloud Integration',
+  description: 'Scalable cloud infrastructure for seamless data synchronization and remote system management.',
+  Icon: Cloud,
+  }
+
+];
 
 export default function Services() {
   return (
@@ -46,7 +63,7 @@ export default function Services() {
               <div className="absolute inset-0 bg-bioluminescent/5 opacity-0 group-hover:opacity-100 transition-opacity duration-700 pointer-events-none"></div>
               
               {/* Icon Container with Bioluminescent Pulse */}
-              <div className="w-14 h-14 rounded-full bg-ocean-surface border border-white/10 flex items-center justify-center mb-6 shadow-[0_0_15px_rgba(0,242,254,0.15)] group-hover:animate-glow-pulse transition-all duration-500">
+              <div className="w-14 h-14 rounded-full bg-ocean-surface border border-[#00f2fe] flex items-center justify-center mb-6 shadow-[0_0_15px_rgba(0,242,254,0.15)] group-hover:animate-glow-pulse transition-all duration-500">
                 <service.Icon className="w-6 h-6 text-bioluminescent" strokeWidth={1.5} />
               </div>
               
